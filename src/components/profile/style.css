@@ -1,0 +1,26 @@
+.mainDiv{
+   /* border: 2px dashed green; */
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin: 25px;
+    transition: all 0.3s ease-in;
+}
+
+.mainDiv:hover {
+    transform: scale(1.2,1.2);
+}
+
+.realDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
